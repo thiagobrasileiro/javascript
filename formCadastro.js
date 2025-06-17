@@ -10,7 +10,7 @@ formCadastro.addEventListener
     const senha = document.getElementById('senha').value;
     const cpf = document.getElementById('cpf').value;
     const telefone = document.getElementById('telefone').value;
-    const date= document.getElementById('data de nascimento').value;
+    const date = document.getElementById('dataNascimento').value;
 //4. Mostrar o resultado na tela
 document.getElementById('resultado').innerHTML=
 `<p>Nome:${nome}</p><br>
@@ -18,5 +18,5 @@ document.getElementById('resultado').innerHTML=
 <p>Senha:${senha}</p><br>
 <p>Cpf:${cpf}</p><br>
 <p>telefone:${telefone}</p><br>
-<p>date:${date}</p><br>`
+<p>data de nascimento:${date}</p><br>`
 })

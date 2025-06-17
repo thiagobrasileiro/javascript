@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Jogos Favoritos</h2>
+    <form id="formJogos">
+<label for="nomeJogo">Nome do Jogo</label>
+<input type="text" id="nomeJogo" name="nomeJogo" required>
+<br>
+<label for="plataforma">Plataforma</label>
+<select name="plataforma" id="plataforma">
+    <option value="">Selecione a plataforma...</option>
+    <option value="mobile">Mobile</option>
+    <option value="pc">PC</option>
+    <option value="ps4">PlayStation 4</option>
+    <option value="ps5">PlayStation 5</option>
+    <option value="switch">Nintendo Switch</option> 
+    <option value="mobile">Mobile</option>
+    <option value="xbox">Xbox One</option>
+    <option value="xboxSeriesX">Xbox Series X</option>
+    <option value="xboxSeriesS">Xbox Series S</option>
+    <option value="xbox360">Xbox 360</option>
+</select>
+<label for="outros ">Outros...</label>
+<input type="text" id="outros" name="outros" placeholder="Especifique a plataforma">
+<br>
+<label for="anoLançamento"> Ano de Lançamento</label>
+<input type="number" id="anoLançamento" name="anoLançamento" required>
+<br>
+<label for="generoJogo">Gênero do Jogo</label>
+<select name="generoJogo" id="generoJogo">
+    <option value="">Selecione o gênero do Jogo...</option>
+    <option value="acao">Ação</option>
+    <option value="aventura">Aventura</option>
+    <option value="rpg">RPG</option>
+    <option value="esporte">Esporte</option>
+    <option value="simulação">simulação</option>
+    <option value="jogosonline">Jogos online</option>
+    <option value="corrida">corrida</option>
+    <option value="terror">Terror</option>         
+</select>
+<label for="outros">Outros..</label>
+<input type="text" id="outrosGenero" name="outrosGenero" placeholder="Especifique o gênero do Jogo">
+<br>
+<button type="submit">Cadastrar Jogos</button>
+    </form>
+    <!--Aqui mostramos a lista de filmes cadastrados-->
+<h3> Lista de Jogos cadastrados</h3>
+<ul id="ListaJogos"></ul>
+<script src="formCadastroJogos.js"></script>
+</body>
+</html>
